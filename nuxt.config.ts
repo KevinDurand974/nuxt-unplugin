@@ -1,8 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 
 import { readFile } from "fs/promises";
-import IconResolver from "unplugin-icons/resolver";
-import Component from "unplugin-vue-components/vite";
 
 export default defineNuxtConfig({
 	typescript: {
@@ -34,9 +32,6 @@ export default defineNuxtConfig({
 			},
 		],
 	],
-	vite: {
-		plugins: [Component({ resolvers: [IconResolver()] })],
-	},
 	routeRules: {
 		"/public/**": { ssr: false },
 		"/preview/**": { ssr: false },

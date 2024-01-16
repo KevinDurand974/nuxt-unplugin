@@ -14,7 +14,6 @@
     "@nuxtjs/tailwindcss": "^6.10.4",
     "nuxt": "^3.9.1",
     "unplugin-icons": "^0.18.2",
-    "unplugin-vue-components": "^0.26.0",
     "vue": "^3.4.10",
     "vue-router": "^4.2.5"
   },
